@@ -1,0 +1,105 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="utf-8">
+  <title>Roomaa</title>
+  <base href="/">
+
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device
+      -width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+      <link rel="stylesheet" href="gurjar.css">
+
+<link rel="stylesheet" href="styles.ef46db3751d8e999.css"><script>
+
+  //  =============================== * navbar * ============================================
+
+  let contry = document.getElementById('contry');
+  let moving = document.getElementById('moving');
+  let text = document.getElementById('text');
+  let list = document.getElementById('list');
+
+
+  contry.addEventListener('click', () => {
+      list.classList.toggle('hidden');
+      moving.classList.toggle('roted')
+  });
+  function myfunction(omkar) {
+      text.innerHTML = omkar;
+  }
+
+
+  let eng_tag = document.getElementById('eng_tag');
+  let hin_eng = document.querySelector('.hin_eng');
+  let language = document.querySelector('.language');
+
+
+  language.addEventListener('click', () => {
+      hin_eng.classList.toggle('display_div');
+  });
+  function languageolx(anyone) {
+      eng_tag.innerHTML = anyone;
+  }
+
+  let girl_img_id = document.getElementById('girl_img_id');
+  let gropdwonid = document.getElementById('gropdwonid');
+
+  girl_img_id.addEventListener('click', () => {
+      gropdwonid.classList.toggle('block_div')
+  });
+
+
+
+
+  //  =============================== * ad 1 * ============================================
+
+
+  let ad_img = document.querySelector('.ad_img');
+  let ad_icon = document.getElementById('ad_icon');
+
+
+  ad_icon.addEventListener('click', () => {
+      ad_img.style = `display: none`;
+  });
+
+
+
+
+  //  =============================== * lode more * ============================================
+
+
+  let Lode_more_id = document.getElementById('Lode_more_id');
+  let lode_more_products_id = document.getElementById('lode_more_products_id');
+
+
+  Lode_more_id.addEventListener('click', () => {
+      lode_more_products_id.style = 'display:block';
+      Lode_more_id.style = 'display:none'
+  });
+
+
+
+
+
+
+  //  =============================== * ad 2 * ============================================
+
+
+
+  let adicon2 = document.getElementById('adicon2');
+  let ads_img2 = document.querySelector('.ads_img2');
+
+  adicon2.addEventListener('click', () => {
+      ads_img2.style = 'display: none';
+  });
+
+
+
+</script></head>
+
+
+
+<body>
+  <app-root></app-root>
+<script src="runtime.6c38f231913e0447.js" type="module"></script><script src="polyfills.7e87f21bdd807621.js" type="module"></script><script src="main.e1c32dd0acc6c7a0.js" type="module"></script>
+
+</body></html>
